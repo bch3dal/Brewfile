@@ -39,6 +39,7 @@ cask multimc
 cask musescore
 cask mysqlworkbench
 cask onyx
+cask playonmac
 cask pomodone
 cask sequel-pro
 cask skitch
@@ -48,13 +49,8 @@ cask sourcetree
 cask steam
 cask the-unarchiver
 cask virtualbox
+cask xamarin-studio
 cask xquartz
-
-tap caskroom/fonts
-
-tap homebrew/binary
-
-tap homebrew/dupes
 
 tap homebrew/php
 brew php56
@@ -64,8 +60,6 @@ brew numpy
 
 tap homebrew/science
 brew opencv
-
-tap homebrew/versions
 
 tap rcmdnk/file
 brew brew-file
