@@ -1,45 +1,79 @@
 
 # tap repositories and their packages
 
-## caskroom/cask
 tap caskroom/cask
 brew brew-cask
+cask alfred
 cask android-file-transfer
 cask android-studio
+cask appcleaner
+cask appcode
+cask arduino
+cask bettertouchtool
+cask boot2docker
+cask clion
+cask cocoapods
+cask dash
+cask disk-inventory-x
+cask docker
 cask dropbox
+cask emacs
+cask evernote
+cask feed-the-beast
+cask firefox
 cask genymotion
 cask git
 cask google-chrome
+cask google-japanese-ime
+cask iexplorer
+cask imageoptim
 cask inkscape
 cask intellij-idea
+cask iterm2
 cask java
-cask osxfuse
+cask krita
+cask libreoffice
+cask megasync
+cask minecraft
+cask multimc
+cask musescore
+cask mysqlworkbench
+cask onyx
+cask pomodone
+cask sequel-pro
+cask skitch
+cask skype
+cask slack
+cask sourcetree
+cask steam
+cask the-unarchiver
 cask virtualbox
 cask xquartz
 
-## homebrew/binary
+tap caskroom/fonts
+
 tap homebrew/binary
 
-## homebrew/fuse
-tap homebrew/fuse
-brew ntfs-3g
+tap homebrew/dupes
 
-## homebrew/python
+tap homebrew/php
+brew php56
+
 tap homebrew/python
 brew numpy
 
-## homebrew/science
 tap homebrew/science
 brew opencv
 
-## rcmdnk/file
+tap homebrew/versions
+
 tap rcmdnk/file
 brew brew-file
 
 # Other Homebrew packages
-brew boot2docker
 brew cmake
-brew docker
+brew composer
+brew curl
 brew eigen
 brew freetype
 brew gcc
@@ -47,10 +81,12 @@ brew gdbm
 brew gettext
 brew glib
 brew gmp
+brew icu4c
 brew ilmbase
 brew imagemagick
 brew isl
 brew jpeg
+brew jq
 brew libffi
 brew libmpc
 brew libpng
@@ -58,8 +94,11 @@ brew libtiff
 brew libtool
 brew libxml2
 brew mpfr
+brew mysql
+brew oniguruma
 brew openexr
 brew openssl
+brew pcre
 brew pkg-config
 brew pngcrush
 brew python
@@ -67,22 +106,20 @@ brew python3
 brew readline
 brew sqlite
 brew tree
+brew unixodbc
 brew wget
 brew xz
+brew zsh --without-etcdir
 
 # App Store applications
-appstore Evernote
 appstore GarageBand
-appstore Hidden Files Toggle
+appstore Go for Gmail
 appstore iMovie
-appstore iPhoto
 appstore Keynote
 appstore Kobito
 appstore MidiMock
 appstore Numbers
 appstore Pages
-appstore Slack
-appstore SourceTree
+appstore Photos Duplicate Cleaner
 appstore Statusbar Countdown
-appstore The Unarchiver
 appstore Xcode
